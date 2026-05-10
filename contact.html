@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Hélène Nechita for modern website creation and responsive portfolio design." />
+  <title>Contact — Hélène Nechita</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="HN home">
+      <span class="brand-mark">HN</span>
+      <span class="brand-name">Hélène Nechita</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html#work" data-en="Work" data-fr="Projets">Work</a>
+      <a href="index.html#services" data-en="Services" data-fr="Services">Services</a>
+      <a href="index.html#process" data-en="Process" data-fr="Processus">Process</a>
+      <a href="contact.html" data-en="Contact" data-fr="Contact">Contact</a>
+    </nav>
+
+    <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">FR</button>
+  </header>
+
+  <main>
+    <section class="contact-hero section-soft reveal">
+      <div>
+        <p class="eyebrow" data-en="Contact" data-fr="Contact">Contact</p>
+        <h1 data-en="Tell me about your website project." data-fr="Parlez-moi de votre projet de site.">Tell me about your website project.</h1>
+        <p class="hero-text" data-en="Share a few details and I’ll get back to you to discuss the best direction for your website." data-fr="Partagez quelques informations et je reviendrai vers vous pour définir la meilleure direction pour votre site.">Share a few details and I’ll get back to you to discuss the best direction for your website.</p>
+      </div>
+    </section>
+
+    <section class="contact-section reveal">
+      <form class="contact-form" action="mailto:helene.nechita@example.com" method="post" enctype="text/plain">
+        <label>
+          <span data-en="Name" data-fr="Nom">Name</span>
+          <input type="text" name="name" required />
+        </label>
+
+        <label>
+          <span data-en="Email" data-fr="Email">Email</span>
+          <input type="email" name="email" required />
+        </label>
+
+        <label>
+          <span data-en="Project type" data-fr="Type de projet">Project type</span>
+          <select name="project-type">
+            <option data-en="Portfolio website" data-fr="Site portfolio">Portfolio website</option>
+            <option data-en="Business website" data-fr="Site vitrine">Business website</option>
+            <option data-en="Creative landing page" data-fr="Landing page créative">Creative landing page</option>
+            <option data-en="Other" data-fr="Autre">Other</option>
+          </select>
+        </label>
+
+        <label>
+          <span data-en="Message" data-fr="Message">Message</span>
+          <textarea name="message" rows="7" required></textarea>
+        </label>
+
+        <button class="button primary" type="submit" data-en="Send message" data-fr="Envoyer le message">Send message</button>
+      </form>
+
+      <aside class="contact-aside">
+        <p class="eyebrow" data-en="Project notes" data-fr="Notes projet">Project notes</p>
+        <h2 data-en="Useful details to include" data-fr="Informations utiles à ajouter">Useful details to include</h2>
+        <ul>
+          <li data-en="Your website goal" data-fr="L’objectif du site">Your website goal</li>
+          <li data-en="Examples of websites you like" data-fr="Des exemples de sites que vous aimez">Examples of websites you like</li>
+          <li data-en="Preferred deadline" data-fr="Votre délai souhaité">Preferred deadline</li>
+          <li data-en="Pages you need" data-fr="Les pages nécessaires">Pages you need</li>
+        </ul>
+      </aside>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Hélène Nechita. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
