@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HN — Website Creator & Developer</title>
+  <meta name="description" content="Hélène Nechita — modern, responsive websites with refined design direction and clear storytelling." />
+  <meta property="og:title" content="HN — Website Creator & Developer" />
+  <meta property="og:description" content="Modern, responsive websites for creators, brands and independent projects." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/preview.jpg" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="site-header">
+    <a href="#top" class="brand" aria-label="HN home">
+      <span class="brand-mark">HN</span>
+      <span class="brand-name">Hélène Nechita</span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#work" data-i18n="nav_work">Work</a>
+      <a href="#services" data-i18n="nav_services">Services</a>
+      <a href="#process" data-i18n="nav_process">Process</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">FR</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section reveal">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="hero_eyebrow">Website creator & developer</p>
+        <h1 data-i18n="hero_title">Elegant websites for creative brands, independent projects and bold ideas.</h1>
+        <p class="hero-text" data-i18n="hero_text">I design and build modern, responsive websites that feel clear, refined and memorable — from portfolio pages to cinematic brand experiences.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contact" data-i18n="hero_cta_primary">Start a project</a>
+          <a class="button secondary" href="#work" data-i18n="hero_cta_secondary">View portfolio</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Portfolio visual card">
+        <div class="glass-card main-card">
+          <span class="small-label">portfolio_01</span>
+          <h2>HN</h2>
+          <p data-i18n="hero_card_text">Responsive design, elegant structure, smooth interactions.</p>
+        </div>
+        <div class="floating-card card-a">UX</div>
+        <div class="floating-card card-b">SEO</div>
+        <div class="floating-card card-c">WEB</div>
+      </div>
+    </section>
+
+    <section class="section intro reveal">
+      <p data-i18n="intro_text">A website should not only look good. It should guide, reassure, convert and leave a signature impression.</p>
+    </section>
+
+    <section class="section work reveal" id="work">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="work_eyebrow">Selected work</p>
+        <h2 data-i18n="work_title">Portfolio highlight</h2>
+      </div>
+      <article class="project-card">
+        <div class="project-media">
+          <div class="mock-browser">
+            <div class="browser-dots"><span></span><span></span><span></span></div>
+            <div class="mock-content">
+              <div class="mock-title">IRREAL LAB_</div>
+              <div class="mock-line"></div>
+              <div class="mock-grid"><span></span><span></span><span></span></div>
+            </div>
+          </div>
+        </div>
+        <div class="project-copy">
+          <p class="eyebrow">irreallab.fr</p>
+          <h3 data-i18n="project_title">A cinematic digital showcase</h3>
+          <p data-i18n="project_text">A visual website built around atmosphere, motion, reels and strong identity. This project reflects the type of expressive, modern websites I can create for artists, creators and small brands.</p>
+          <a class="text-link" href="https://irreallab.fr" target="_blank" rel="noopener" data-i18n="project_link">Visit irreallab.fr</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section services reveal" id="services">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="services_eyebrow">What I create</p>
+        <h2 data-i18n="services_title">Websites with style and purpose</h2>
+      </div>
+      <div class="service-grid">
+        <div class="service-card">
+          <span>01</span>
+          <h3 data-i18n="service_1_title">Portfolio websites</h3>
+          <p data-i18n="service_1_text">Clean, elegant pages to present your work, your universe and your contact information.</p>
+        </div>
+        <div class="service-card">
+          <span>02</span>
+          <h3 data-i18n="service_2_title">Brand landing pages</h3>
+          <p data-i18n="service_2_text">Impactful one-page websites for launches, announcements, services or creative projects.</p>
+        </div>
+        <div class="service-card">
+          <span>03</span>
+          <h3 data-i18n="service_3_title">Responsive development</h3>
+          <p data-i18n="service_3_text">Fast, mobile-friendly pages prepared for GitHub Pages and simple hosting solutions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process reveal" id="process">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="process_eyebrow">How we work</p>
+        <h2 data-i18n="process_title">Simple, clear, efficient</h2>
+      </div>
+      <div class="timeline">
+        <div><strong data-i18n="step_1_title">1. Direction</strong><p data-i18n="step_1_text">We define the style, structure, audience and main goal of the website.</p></div>
+        <div><strong data-i18n="step_2_title">2. Creation</strong><p data-i18n="step_2_text">I build the pages with responsive design, clear sections and subtle interactions.</p></div>
+        <div><strong data-i18n="step_3_title">3. Launch</strong><p data-i18n="step_3_text">The site is prepared for upload, SEO basics and easy future updates.</p></div>
+      </div>
+    </section>
+
+    <section class="section contact reveal" id="contact">
+      <div class="contact-panel">
+        <p class="eyebrow" data-i18n="contact_eyebrow">Let’s build something</p>
+        <h2 data-i18n="contact_title">Need a website that feels modern, personal and professional?</h2>
+        <p data-i18n="contact_text">Tell me about your project and I will help you shape a clear, elegant online presence.</p>
+        <a class="button primary" href="mailto:hello@example.com?subject=Website%20project%20with%20H%C3%A9l%C3%A8ne%20Nechita" data-i18n="contact_cta">Contact me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>HN — Hélène Nechita</span>
+    <span data-i18n="footer_rights">© Hélène Nechita. All rights reserved.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
