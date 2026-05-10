@@ -422,3 +422,35 @@ h1:hover, h2:hover, h3:hover {
 @media (max-width: 560px) {
   h1:hover, h2:hover, h3:hover { transform: none; }
 }
+
+
+/* Small About Me photo */
+.about-photo-frame {
+  width: 132px;
+  height: 132px;
+  margin-top: 28px;
+  border-radius: 34px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.75);
+  box-shadow: 0 22px 58px rgba(35, 28, 15, 0.14);
+  background: rgba(255,255,255,.52);
+  transform: rotate(-2deg);
+  transition: transform .35s ease, box-shadow .35s ease, border-color .35s ease;
+}
+.about-photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-photo-frame:hover {
+  transform: rotate(0deg) translateY(-4px) scale(1.02);
+  border-color: rgba(196, 154, 68, .36);
+  box-shadow: 0 28px 72px rgba(35, 28, 15, 0.18);
+}
+@media (max-width: 560px) {
+  .about-photo-frame {
+    width: 108px;
+    height: 108px;
+    border-radius: 28px;
+  }
+}
