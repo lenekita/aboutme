@@ -2,52 +2,52 @@ const translations = {
   en: {
     navWork: 'Work', navServices: 'Services', navProcess: 'Process', navContact: 'Contact',
     heroEyebrow: 'Website creator & front-end developer',
-    heroTitle: 'Elegant websites for creative brands, portfolios and small businesses.',
-    heroCopy: 'I design and build modern, responsive websites with a clear structure, refined visuals and a smooth user experience.',
-    heroCta: 'Start a project', heroSecondary: 'View portfolio',
-    introText: 'My work combines clean development, strong visual hierarchy and a precise sense of atmosphere. Design support can also be shaped with the creative universe of irreallab, led by Radu Nechita.',
-    workEyebrow: 'Selected work', workTitle: 'A portfolio built to show what your future clients could feel.',
-    workOne: 'A cinematic visual portfolio with a strong artistic identity, motion-driven energy and immersive presentation.',
-    visitSite: 'Visit site', workTwoTitle: 'Creator portfolio', workTwo: 'A refined one-page website for a personal brand, built to present work, services and contact clearly.',
-    workThreeTitle: 'Business landing page', workThree: 'A responsive landing page for a service, product or studio, focused on trust, conversion and clarity.',
-    servicesEyebrow: 'Services', servicesTitle: 'Simple, polished and ready to publish.',
-    serviceOneTitle: 'Website design', serviceOne: 'Visual direction, structure, sections, typography and responsive layout.',
-    serviceTwoTitle: 'Development', serviceTwo: 'Clean HTML, CSS and JavaScript files prepared for GitHub Pages.',
-    serviceThreeTitle: 'Launch support', serviceThree: 'SEO basics, preview images, links, contact page and publishing guidance.',
-    processEyebrow: 'Process', processTitle: 'From idea to online presence.',
-    stepOneTitle: '1. Direction', stepOne: 'We define the style, message and pages needed.',
-    stepTwoTitle: '2. Creation', stepTwo: 'I build a modern responsive version of the website.',
-    stepThreeTitle: '3. Launch', stepThree: 'Files are delivered ready for GitHub or your domain.',
-    ctaEyebrow: 'Available for projects', ctaTitle: 'Need a website that looks serious, modern and memorable?', ctaButton: 'Contact me', footerContact: 'Contact', footerHome: 'Back home',
-    contactEyebrow: 'Contact', contactTitle: 'Tell me about your website project.', contactCopy: 'Share the essentials: your activity, the style you like, the pages you need and your desired timing.',
+    heroTitle: 'I create clear, modern websites that help people trust your work.',
+    heroCopy: 'I build elegant, responsive websites for independent projects, creative brands and small businesses that need to look professional online without losing their personality.',
+    heroCta: 'Start your website', heroSecondary: 'View my work',
+    introText: 'My approach is simple: understand your activity, shape the right message, and turn it into a website that feels clean, serious and easy to use. I can keep the design minimal and professional, or bring in a more visual direction with the creative universe of irreallab, designed by Radu Nechita.',
+    workEyebrow: 'Selected work', workTitle: 'A first impression should feel confident before people read a single line.',
+    workOne: 'A cinematic visual website created around a strong artistic identity, immersive presentation and a clear link between visuals, motion and brand atmosphere.',
+    visitSite: 'Visit site', workTwoTitle: 'Personal portfolio', workTwo: 'A refined one-page website for presenting a person, a project or a creative service with clarity, rhythm and a strong first impression.',
+    workThreeTitle: 'Professional landing page', workThree: 'A focused page for a service, studio or small business, built to explain the offer quickly and make contacting you feel obvious.',
+    servicesEyebrow: 'Services', servicesTitle: 'Everything you need to go from idea to a real online presence.',
+    serviceOneTitle: 'Website structure', serviceOne: 'We organize your message, your sections and your visual direction so visitors immediately understand who you are and what you offer.',
+    serviceTwoTitle: 'Front-end development', serviceTwo: 'I create clean HTML, CSS and JavaScript files that are responsive, fast and ready to publish on GitHub Pages or your own domain.',
+    serviceThreeTitle: 'Launch support', serviceThree: 'I help with the essentials: contact page, links, favicon, SEO basics, social preview and practical guidance before publishing.',
+    processEyebrow: 'Process', processTitle: 'A calm process, from first idea to finished website.',
+    stepOneTitle: '1. We clarify', stepOne: 'We define your activity, your audience, the pages you need and the feeling your website should give.',
+    stepTwoTitle: '2. I build', stepTwo: 'I create a modern responsive version of the site and refine the details so it feels coherent and professional.',
+    stepThreeTitle: '3. You publish', stepThree: 'You receive the complete files, ready to upload to GitHub Pages or connect to your domain.',
+    ctaEyebrow: 'Available for projects', ctaTitle: 'If your project deserves a better online image, let’s build it properly.', ctaButton: 'Contact me', footerContact: 'Contact', footerHome: 'Back home',
+    contactEyebrow: 'Contact', contactTitle: 'Tell me what you would like to create.', contactCopy: 'You do not need a perfect brief. Send me your idea, your activity, the pages you imagine and the style you like. I will help you make it clearer.',
     labelName: 'Name', labelProject: 'Project type', optionPortfolio: 'Portfolio website', optionBusiness: 'Business website', optionLanding: 'Landing page', optionOther: 'Other', labelMessage: 'Message', sendButton: 'Send message',
-    formNote: 'Replace YOUR_FORM_ID with your Formspree ID, or change the form action to your own service.',
-    panelTitle: 'A clear website, a refined image.', panelCopy: 'I can help you turn a simple idea into a modern online presence ready to share.'
+    formNote: 'To activate this form, replace YOUR_FORM_ID with your Formspree ID, or connect it to your preferred form service.',
+    panelTitle: 'A serious website, without losing your identity.', panelCopy: 'I can help you turn your idea into a polished online presence that people can understand, remember and contact.'
   },
   fr: {
     navWork: 'Réalisations', navServices: 'Services', navProcess: 'Méthode', navContact: 'Contact',
     heroEyebrow: 'Créatrice de sites web & développeuse front-end',
-    heroTitle: 'Des sites élégants pour marques créatives, portfolios et petites entreprises.',
-    heroCopy: 'Je conçois et développe des sites modernes, responsives, avec une structure claire, une image soignée et une expérience fluide.',
-    heroCta: 'Démarrer un projet', heroSecondary: 'Voir le portfolio',
-    introText: 'Mon travail associe un développement propre, une hiérarchie visuelle forte et une atmosphère précise. La direction artistique peut aussi s’appuyer sur l’univers créatif d’irreallab, mené par Radu Nechita.',
-    workEyebrow: 'Sélection', workTitle: 'Un portfolio pensé pour montrer ce que vos futurs clients peuvent ressentir.',
-    workOne: 'Un portfolio visuel cinématographique avec une identité artistique forte, une énergie liée au mouvement et une présentation immersive.',
-    visitSite: 'Voir le site', workTwoTitle: 'Portfolio créatif', workTwo: 'Un site one-page raffiné pour une marque personnelle, pensé pour présenter le travail, les services et le contact clairement.',
-    workThreeTitle: 'Landing page professionnelle', workThree: 'Une page responsive pour un service, un produit ou un studio, axée sur la confiance, la conversion et la clarté.',
-    servicesEyebrow: 'Services', servicesTitle: 'Simple, soigné et prêt à publier.',
-    serviceOneTitle: 'Design de site', serviceOne: 'Direction visuelle, structure, sections, typographie et mise en page responsive.',
-    serviceTwoTitle: 'Développement', serviceTwo: 'Fichiers HTML, CSS et JavaScript propres, préparés pour GitHub Pages.',
-    serviceThreeTitle: 'Aide au lancement', serviceThree: 'Bases SEO, images de partage, liens, page contact et accompagnement à la publication.',
-    processEyebrow: 'Méthode', processTitle: 'De l’idée à la présence en ligne.',
-    stepOneTitle: '1. Direction', stepOne: 'Nous définissons le style, le message et les pages nécessaires.',
-    stepTwoTitle: '2. Création', stepTwo: 'Je construis une version moderne et responsive du site.',
-    stepThreeTitle: '3. Mise en ligne', stepThree: 'Les fichiers sont livrés prêts pour GitHub ou votre domaine.',
-    ctaEyebrow: 'Disponible pour projets', ctaTitle: 'Besoin d’un site sérieux, moderne et mémorable ?', ctaButton: 'Me contacter', footerContact: 'Contact', footerHome: 'Retour accueil',
-    contactEyebrow: 'Contact', contactTitle: 'Parlez-moi de votre projet de site.', contactCopy: 'Partagez l’essentiel : votre activité, le style souhaité, les pages nécessaires et votre délai idéal.',
+    heroTitle: 'Je crée des sites clairs et modernes qui donnent confiance.',
+    heroCopy: 'Je conçois des sites élégants et responsives pour projets indépendants, marques créatives et petites entreprises qui veulent une présence en ligne professionnelle sans perdre leur personnalité.',
+    heroCta: 'Créer mon site', heroSecondary: 'Voir mes réalisations',
+    introText: 'Ma méthode est simple : comprendre votre activité, clarifier votre message et le transformer en un site propre, sérieux et agréable à parcourir. Le design peut rester minimal et professionnel, ou s’appuyer sur une direction plus visuelle avec l’univers créatif d’irreallab, imaginé par Radu Nechita.',
+    workEyebrow: 'Sélection', workTitle: 'Une première impression doit inspirer confiance avant même la lecture.',
+    workOne: 'Un site visuel et cinématographique construit autour d’une identité artistique forte, d’une présentation immersive et d’un lien clair entre image, mouvement et univers de marque.',
+    visitSite: 'Voir le site', workTwoTitle: 'Portfolio personnel', workTwo: 'Un site one-page raffiné pour présenter une personne, un projet ou un service créatif avec clarté, rythme et impact.',
+    workThreeTitle: 'Landing page professionnelle', workThree: 'Une page claire pour un service, un studio ou une petite entreprise, pensée pour expliquer rapidement l’offre et donner envie de prendre contact.',
+    servicesEyebrow: 'Services', servicesTitle: 'Tout ce qu’il faut pour passer d’une idée à une vraie présence en ligne.',
+    serviceOneTitle: 'Structure du site', serviceOne: 'Nous organisons votre message, vos sections et votre direction visuelle pour que l’on comprenne tout de suite qui vous êtes et ce que vous proposez.',
+    serviceTwoTitle: 'Développement front-end', serviceTwo: 'Je crée des fichiers HTML, CSS et JavaScript propres, responsives, rapides et prêts à publier sur GitHub Pages ou votre propre domaine.',
+    serviceThreeTitle: 'Aide au lancement', serviceThree: 'Je vous aide avec les essentiels : page contact, liens, favicon, bases SEO, aperçu social et conseils pratiques avant la mise en ligne.',
+    processEyebrow: 'Méthode', processTitle: 'Une méthode simple, de l’idée au site terminé.',
+    stepOneTitle: '1. On clarifie', stepOne: 'Nous définissons votre activité, votre public, les pages nécessaires et l’impression que le site doit donner.',
+    stepTwoTitle: '2. Je construis', stepTwo: 'Je crée une version moderne et responsive du site, puis j’affine les détails pour obtenir un ensemble cohérent et professionnel.',
+    stepThreeTitle: '3. Vous publiez', stepThree: 'Vous recevez les fichiers complets, prêts à être envoyés sur GitHub Pages ou reliés à votre domaine.',
+    ctaEyebrow: 'Disponible pour projets', ctaTitle: 'Si votre projet mérite une meilleure image en ligne, construisons-la correctement.', ctaButton: 'Me contacter', footerContact: 'Contact', footerHome: 'Retour accueil',
+    contactEyebrow: 'Contact', contactTitle: 'Dites-moi ce que vous souhaitez créer.', contactCopy: 'Vous n’avez pas besoin d’un brief parfait. Envoyez-moi votre idée, votre activité, les pages imaginées et le style que vous aimez. Je vous aiderai à rendre tout cela plus clair.',
     labelName: 'Nom', labelProject: 'Type de projet', optionPortfolio: 'Site portfolio', optionBusiness: 'Site professionnel', optionLanding: 'Landing page', optionOther: 'Autre', labelMessage: 'Message', sendButton: 'Envoyer le message',
-    formNote: 'Remplacez YOUR_FORM_ID par votre identifiant Formspree, ou changez l’action du formulaire vers votre propre service.',
-    panelTitle: 'Un site clair, une image raffinée.', panelCopy: 'Je peux vous aider à transformer une idée simple en présence en ligne moderne, prête à partager.'
+    formNote: 'Pour activer ce formulaire, remplacez YOUR_FORM_ID par votre identifiant Formspree, ou reliez-le au service de formulaire de votre choix.',
+    panelTitle: 'Un site sérieux, sans perdre votre identité.', panelCopy: 'Je peux vous aider à transformer votre idée en présence en ligne soignée, facile à comprendre, à retenir et à contacter.'
   }
 };
 
@@ -107,5 +107,21 @@ if (dot && ring && window.matchMedia('(pointer: fine)').matches) {
   document.querySelectorAll('a, button, input, textarea, select, .magnetic').forEach((element) => {
     element.addEventListener('mouseenter', () => ring.classList.add('active'));
     element.addEventListener('mouseleave', () => ring.classList.remove('active'));
+  });
+}
+
+
+// Subtle modern magnetic effect for buttons, brand and clickable cards
+if (window.matchMedia('(pointer: fine)').matches) {
+  document.querySelectorAll('.magnetic').forEach((element) => {
+    element.addEventListener('mousemove', (event) => {
+      const rect = element.getBoundingClientRect();
+      const x = event.clientX - rect.left - rect.width / 2;
+      const y = event.clientY - rect.top - rect.height / 2;
+      element.style.transform = `translate(${x * 0.08}px, ${y * 0.08}px)`;
+    });
+    element.addEventListener('mouseleave', () => {
+      element.style.transform = '';
+    });
   });
 }
