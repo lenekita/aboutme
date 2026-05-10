@@ -3,87 +3,77 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Contact Hélène Nechita for modern website creation and responsive portfolio design." />
   <title>Contact — Hélène Nechita</title>
+  <meta name="description" content="Contact Hélène Nechita for a modern responsive website." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="cursor-dot"></div>
-  <div class="cursor-ring"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
 
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="HN home">
+    <a class="brand magnetic" href="index.html" aria-label="HN home">
       <span class="brand-mark">HN</span>
-      <span class="brand-name">Hélène Nechita</span>
+      <span class="brand-text">Hélène Nechita</span>
     </a>
-
     <nav class="main-nav" aria-label="Main navigation">
-      <a href="index.html#work" data-en="Work" data-fr="Projets">Work</a>
-      <a href="index.html#services" data-en="Services" data-fr="Services">Services</a>
-      <a href="index.html#process" data-en="Process" data-fr="Processus">Process</a>
-      <a href="contact.html" data-en="Contact" data-fr="Contact">Contact</a>
+      <a href="index.html#work" data-i18n="navWork">Work</a>
+      <a href="index.html#services" data-i18n="navServices">Services</a>
+      <a href="index.html#process" data-i18n="navProcess">Process</a>
+      <a href="contact.html" data-i18n="navContact">Contact</a>
+      <button class="lang-toggle magnetic" type="button" aria-label="Switch language">FR</button>
     </nav>
-
-    <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">FR</button>
   </header>
 
   <main>
-    <section class="contact-hero section-soft reveal">
-      <div>
-        <p class="eyebrow" data-en="Contact" data-fr="Contact">Contact</p>
-        <h1 data-en="Tell me about your website project." data-fr="Parlez-moi de votre projet de site.">Tell me about your website project.</h1>
-        <p class="hero-text" data-en="Share a few details and I’ll get back to you to discuss the best direction for your website." data-fr="Partagez quelques informations et je reviendrai vers vous pour définir la meilleure direction pour votre site.">Share a few details and I’ll get back to you to discuss the best direction for your website.</p>
-      </div>
+    <section class="contact-hero reveal">
+      <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+      <h1 data-i18n="contactTitle">Tell me about your website project.</h1>
+      <p data-i18n="contactCopy">Share the essentials: your activity, the style you like, the pages you need and your desired timing.</p>
     </section>
 
-    <section class="contact-section reveal">
-      <form class="contact-form" action="mailto:helene.nechita@example.com" method="post" enctype="text/plain">
+    <section class="contact-layout">
+      <form class="contact-form reveal" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
         <label>
-          <span data-en="Name" data-fr="Nom">Name</span>
-          <input type="text" name="name" required />
+          <span data-i18n="labelName">Name</span>
+          <input type="text" name="name" placeholder="Your name" data-placeholder-en="Your name" data-placeholder-fr="Votre nom" required>
         </label>
-
         <label>
-          <span data-en="Email" data-fr="Email">Email</span>
-          <input type="email" name="email" required />
+          <span>Email</span>
+          <input type="email" name="email" placeholder="your@email.com" required>
         </label>
-
         <label>
-          <span data-en="Project type" data-fr="Type de projet">Project type</span>
-          <select name="project-type">
-            <option data-en="Portfolio website" data-fr="Site portfolio">Portfolio website</option>
-            <option data-en="Business website" data-fr="Site vitrine">Business website</option>
-            <option data-en="Creative landing page" data-fr="Landing page créative">Creative landing page</option>
-            <option data-en="Other" data-fr="Autre">Other</option>
+          <span data-i18n="labelProject">Project type</span>
+          <select name="project">
+            <option data-i18n="optionPortfolio">Portfolio website</option>
+            <option data-i18n="optionBusiness">Business website</option>
+            <option data-i18n="optionLanding">Landing page</option>
+            <option data-i18n="optionOther">Other</option>
           </select>
         </label>
-
         <label>
-          <span data-en="Message" data-fr="Message">Message</span>
-          <textarea name="message" rows="7" required></textarea>
+          <span data-i18n="labelMessage">Message</span>
+          <textarea name="message" rows="7" placeholder="Tell me what you want to create..." data-placeholder-en="Tell me what you want to create..." data-placeholder-fr="Expliquez-moi ce que vous souhaitez créer..." required></textarea>
         </label>
-
-        <button class="button primary" type="submit" data-en="Send message" data-fr="Envoyer le message">Send message</button>
+        <button class="btn primary magnetic" type="submit" data-i18n="sendButton">Send message</button>
+        <p class="form-note" data-i18n="formNote">Replace YOUR_FORM_ID with your Formspree ID, or change the form action to your own service.</p>
       </form>
 
-      <aside class="contact-aside">
-        <p class="eyebrow" data-en="Project notes" data-fr="Notes projet">Project notes</p>
-        <h2 data-en="Useful details to include" data-fr="Informations utiles à ajouter">Useful details to include</h2>
-        <ul>
-          <li data-en="Your website goal" data-fr="L’objectif du site">Your website goal</li>
-          <li data-en="Examples of websites you like" data-fr="Des exemples de sites que vous aimez">Examples of websites you like</li>
-          <li data-en="Preferred deadline" data-fr="Votre délai souhaité">Preferred deadline</li>
-          <li data-en="Pages you need" data-fr="Les pages nécessaires">Pages you need</li>
-        </ul>
+      <aside class="contact-panel reveal">
+        <div class="panel-logo">HN</div>
+        <h2 data-i18n="panelTitle">A clear website, a refined image.</h2>
+        <p data-i18n="panelCopy">I can help you turn a simple idea into a modern online presence ready to share.</p>
+        <a href="mailto:contact@example.com">contact@example.com</a>
       </aside>
     </section>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <p>© <span id="year"></span> Hélène Nechita. All rights reserved.</p>
+    <a href="index.html" data-i18n="footerHome">Back home</a>
   </footer>
 
   <script src="script.js"></script>
